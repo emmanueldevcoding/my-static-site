@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>My Static Site</title>
+  <!-- LINK TO CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Welcome to My Static Website 🚀</h1>
-  <p>This is my first site hosted using GitHub from mobile.</p>
+  <header>
+    <h1>Welcome — My Static Website</h1>
+    <p id="subtitle">This is a minimal layout.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About</h2>
+      <p>This page is hosted on GitHub Pages.</p>
+      <button id="action">Click me</button>
+    </section>
+  </main>
+
+  <!-- LINK TO JS (put before closing body) -->
+  <script src="app.js"></script>
 </body>
 </html>
